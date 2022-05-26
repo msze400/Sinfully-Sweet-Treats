@@ -1,10 +1,6 @@
-import React, { FC } from 'react';
+import React, { FC } from 'react'
 interface BestSellersProps {}
 
-const BestSellers: FC<BestSellersProps> = () => (
-  <div>
-    BestSellers Component
-  </div>
-);
+const BestSellers: FC<BestSellersProps> = () => <div>BestSellers Component</div>
 
-export default BestSellers;
+export default BestSellers
