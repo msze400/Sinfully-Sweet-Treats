@@ -19,7 +19,7 @@
 
 @font-face {
   font-family: Cabrito Normal;
-  src: url('./assets/fonts/CabritoSerif-ConReg.otf');
+  src: url('./assets/fonts/CabritoSerif-ConReg.otf') format("opentype");;
 }
 
 .App-header {
@@ -57,5 +57,6 @@
 }
 
 .minibio {
-  font-family: CabritoSerif-ConReg;
-}
+  font-family: 'Source Serif Pro', serif;
+};
+
