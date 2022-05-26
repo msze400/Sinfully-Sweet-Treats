@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 .App {
   text-align: center;
 }
@@ -21,12 +25,22 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
 }
 
 .App-link {
   color: #61dafb;
 }
+
+.parallax{
+  width: 100vw;
+  height: 50vh;
+  background-color: rgba(0,0,0,.2); /* Tint color */
+  background-blend-mode: multiply;
+}
+
+.parallax-text{
+}
+
 
 @keyframes App-logo-spin {
   from {
