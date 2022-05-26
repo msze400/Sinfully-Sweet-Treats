@@ -1,6 +1,7 @@
 import React, { FC } from 'react';
 import NavBar from'../NavBar/NavBar';
 import { Parallax } from 'react-parallax';
+import MiniBio from '../MiniBio/MiniBio';
 
 
 interface HomePageProps {}
@@ -19,6 +20,7 @@ const HomePage: FC<HomePageProps> = () => (
           </div>
         </div>
       </Parallax>
+      <MiniBio></MiniBio>
     </div>
   // </div>
 );

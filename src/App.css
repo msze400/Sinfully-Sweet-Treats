@@ -17,6 +17,11 @@
   }
 }
 
+@font-face {
+  font-family: Cabrito Normal;
+  src: url('./assets/fonts/CabritoSerif-ConReg.otf');
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -49,4 +54,8 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.minibio {
+  font-family: CabritoSerif-ConReg;
 }
