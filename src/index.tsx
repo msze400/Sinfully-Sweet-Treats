@@ -8,6 +8,7 @@ import {
   Routes,
   BrowserRouter,
 } from "react-router-dom";
+import BestSellers from './components/BestSellers/BestSellers';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -17,6 +18,7 @@ root.render(
     <React.StrictMode>
       <Routes>
       <Route path="/" element={<App />} />
+      <Route path="bestseller" element={<BestSellers/>}/>
       </Routes>
       {/* <Route path="expenses" element={<Expenses />} />
       <Route path="invoices" element={<Invoices />} /> */}
