@@ -2,6 +2,9 @@ import React, { FC } from 'react'
 import NavBar from '../NavBar/NavBar'
 import { Parallax } from 'react-parallax'
 import MiniBio from '../MiniBio/MiniBio'
+import SpecialtyDessert from '../SpecialtyDessert/SpecialtyDessert'
+import BestSellers from '../BestSellers/BestSellers'
+import SpecialtyDessertBanner from '../SpecialtyDessertBanner/SpecialtyDessertBanner'
 
 interface HomePageProps {}
 
@@ -22,6 +25,8 @@ const HomePage: FC<HomePageProps> = () => (
             </div>
         </Parallax>
         <MiniBio></MiniBio>
+        <SpecialtyDessertBanner></SpecialtyDessertBanner>
+        <BestSellers></BestSellers>
     </div>
     // </div>
 )
