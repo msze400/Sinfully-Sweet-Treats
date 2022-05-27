@@ -7,6 +7,9 @@ import { Route, Routes, BrowserRouter } from 'react-router-dom'
 import BestSellers from './components/BestSellers/BestSellers'
 import Reviews from './components/Reviews/Reviews'
 import NavBar from './components/NavBar/NavBar'
+import Footer from './components/Footer/Footer'
+import Products from './components/Products/Products'
+import About from './components/About/About'
 
 const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement)
 root.render(
@@ -17,7 +20,10 @@ root.render(
                 <Route path="/" element={<App />} />
                 <Route path="bestseller" element={<BestSellers />} />
                 <Route path="reviews" element={<Reviews />} />
+                <Route path="products" element={<Products />} />
+                <Route path="about" element={<About />} />
             </Routes>
+            <Footer></Footer>
             {/* <Route path="expenses" element={<Expenses />} />
       <Route path="invoices" element={<Invoices />} /> */}
         </React.StrictMode>

@@ -2,31 +2,34 @@ import React, { FC } from 'react'
 
 interface SpecialtyDessertBannerProps {}
 
+const CookieTray = require('../../assets/Cookie_Tray.jpeg')
+
 const SpecialtyDessertBanner: FC<SpecialtyDessertBannerProps> = () => (
-    <div className="dark:bg-gray-900">
+    <div className="dark:bg-yellow-100">
         <div className="container mx-auto py-9 md:py-12 lg:py-24">
             <div className="relative mx-4">
                 <img
-                    src="https://i.ibb.co/q5k5j57/bench-accounting-nvzv-OPQW0gc-unsplash-1-1.png"
-                    alt="A work table with house plants"
-                    className="w-full h-full hidden lg:block"
+                    src={CookieTray}
+                    alt="Cookie Tray"
+                    className="w-1/2 h-1/2 hidden lg:block"
+                    id="background-tint"
                 />
-                <img
+                {/* <img
                     src="https://i.ibb.co/94jQFsV/bench-accounting-nvzv-OPQW0gc-unsplash-1-1.png"
                     alt="A work table with house plants"
-                    className="hidden sm:block lg:hidden w-full h-full"
+                    className="hidden sm:block lg:hidden w-full h-full background-tint"
                 />
                 <img
                     src="https://i.ibb.co/cJz8LZ2/bench-accounting-nvzv-OPQW0gc-unsplash-1-1.png"
                     alt="A work table with house plants"
                     className="sm:hidden w-full h-full"
-                />
+                /> */}
 
                 <div className="absolute z-10 top-0 left-0 mx-4 sm:mx-0 mt-36 sm:mt-0 sm:py-20 md:py-28 lg:py-20 xl:py-28 sm:pl-14 flex flex-col sm:justify-start items-start">
-                    <h1 className="text-4xl sm:text-5xl lg:text-6xl font-semibold text-gray-800 sm:w-8/12">
+                    <h1 className="text-4xl sm:text-5xl lg:text-6xl font-semibold text-white sm:w-8/12">
                         Satisfy Your Sweet Tooth
                     </h1>
-                    <p className="text-base leading-normal text-gray-800 mt-4 sm:mt-5 sm:w-5/12">
+                    <p className="text-base leading-normal text-white mt-4 sm:mt-5 sm:w-5/12">
                         Check out some of my previous sweet creations and happy
                         customers!
                     </p>
