@@ -2,6 +2,8 @@ import React, { FC } from 'react'
 
 interface AboutProps {}
 
+const Mandy = require('../../assets/Mandy.jpg')
+
 const About: FC<AboutProps> = () => (
     <div className="2xl:container 2xl:mx-auto lg:py-16 lg:px-20 md:py-12 md:px-6 py-9 px-4">
         <div className="lg:w-10/12 w-full">
@@ -9,8 +11,7 @@ const About: FC<AboutProps> = () => (
                 About
             </p>
             <h2 className="xl:w-8/12 lg:w-10/12 w-full font-bold text-gray-800 lg:text-4xl text-3xl lg:leading-10 leading-9 mt-2">
-                We are here to make great design accessible and delightfull for
-                everyone
+                I'm here to make great tasting treats for any special occassion.
             </h2>
             <p className="font-normal text-base leading-6 text-gray-600 mt-6">
                 It is a long established fact that a reader will be distracted
@@ -43,33 +44,25 @@ const About: FC<AboutProps> = () => (
         <div className="lg:mt-16 sm:mt-12 mt-16 flex lg:flex-row justify-between flex-col lg:gap-8 gap-12">
             <div className="w-full xl:w-5/12 lg:w-6/12">
                 <h2 className="font-bold lg:text-4xl text-3xl lg:leading-9 leading-7 text-gray-800">
-                    Our Story
+                    Amanda DiPietrantonio
                 </h2>
                 <p className="font-normal text-base leading-6 text-gray-600 mt-4">
-                    It is a long established fact that a reader will be
-                    distracted by the readable content of a page when looking at
-                    its layout. The point of using Lorem Ipsum.In the first
-                    place we have granted to God, and by this our present
-                    charter confirmed for us and our heirs forever that the
-                    English Church shall be free, and shall have her rights
-                    entire, and her liberties inviolate; and we will that it be
-                    thus observed; which is apparent from
+                    I’m a self taught baker/cookier venturing on a new
+                    adventure. I have spent years practicing my skill and am
+                    ready to share my imagination with the world.
                 </p>
                 <p className="font-normal text-base leading-6 text-gray-600 mt-6">
-                    It is a long established fact that a reader will be
-                    distracted by the readable content of a page when looking at
-                    its layout. The point of using Lorem Ipsum.In the first
-                    place we have granted to God, and by this our present
-                    charter confirmed for us and our heirs forever that the
-                    English Church shall be free, and shall have her rights
-                    entire, and her liberties inviolate; and we will that it be
-                    thus observed; which is apparent from
+                    🧁 I’m a full time Physical Therapist <br />
+                    🧁 I love spending time with my family and friends <br />
+                    🧁 I married my best friend of 9 years last November <br />
+                    🧁 I enjoy traveling to new places <br />
+                    🧁 I learned to like football because of Fantasy football
                 </p>
             </div>
             <div className="lg:flex items-center w-full lg:w-1/2 ">
                 <img
-                    className="lg:block hidden w-full"
-                    src="https://i.ibb.co/2kxWpNm/Group-740.png"
+                    className="lg:block hidden w-full rounded-3xl"
+                    src={Mandy}
                     alt="people discussing on board"
                 />
                 <img

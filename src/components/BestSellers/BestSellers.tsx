@@ -1,6 +1,11 @@
 import React, { FC } from 'react'
 interface BestSellersProps {}
 
+const WeddingCookies = require('../../assets/Wedding_Cookies.jpg')
+const CakePops = require('../../assets/Cake_Pops.jpg')
+const HealthcareCookies = require('../../assets/Healthcare_Cookies.PNG')
+const ShortbreadCookies = require('../../assets/Shortbread_Cookies.PNG')
+
 const BestSellers: FC<BestSellersProps> = () => (
     <div className="2xl:mx-auto 2xl:container px-4 md:px-6 2xl:px-0 py-16 flex justify-center">
         <div className="fle flex-col justify-center items-center">
@@ -12,10 +17,7 @@ const BestSellers: FC<BestSellersProps> = () => (
             <div className="grid md:grid-cols-2 lg:grid-cols-4 justify-items-between mt-8 gap-y-8 lg:gap-y-0 gap-x-8">
                 <div className="flex items-start flex-col">
                     <div className="relative flex justify-center items-center bg-gray-100 py-12 px-16">
-                        <img
-                            src="https://i.ibb.co/9HKkSpP/Rectangle-49.png"
-                            alt="mobile"
-                        />
+                        <img src={WeddingCookies} alt="weddingcookie" />
                         <button className="absolute top-4 right-4 flex justify-center items-center p-3.5 bg-white rounded-full">
                             <svg
                                 className="fill-stroke text-gray-600 hover:text-gray-500"
@@ -43,12 +45,12 @@ const BestSellers: FC<BestSellersProps> = () => (
                     <div className="flex flex-col items-start jusitfy-start mt-3 space-y-3">
                         <div>
                             <p className="text-lg font-medium leading-4 text-gray-800">
-                                iPhone XS
+                                Wedding Package
                             </p>
                         </div>
                         <div>
                             <p className="text-lg leading-4 text-gray-600">
-                                $790
+                                $X per cookie
                             </p>
                         </div>
                     </div>
@@ -56,10 +58,7 @@ const BestSellers: FC<BestSellersProps> = () => (
 
                 <div className="flex items-start flex-col">
                     <div className="relative flex justify-center items-center bg-gray-100 py-12 px-16">
-                        <img
-                            src="https://i.ibb.co/z7jvmjp/Rectangle-49-1.png"
-                            alt="headphones"
-                        />
+                        <img src={CakePops} alt="cakepops" />
                         <button className="absolute top-4 right-4 flex justify-center items-center p-3.5 bg-white rounded-full">
                             <svg
                                 className="fill-stroke text-gray-600 hover:text-gray-500"
@@ -87,7 +86,7 @@ const BestSellers: FC<BestSellersProps> = () => (
                     <div className="flex flex-col items-start jusitfy-start mt-3 space-y-3">
                         <div>
                             <p className="text-lg font-medium leading-4 text-gray-800">
-                                Beats earphones
+                                Cake Pops
                             </p>
                         </div>
                         <div>
@@ -100,10 +99,7 @@ const BestSellers: FC<BestSellersProps> = () => (
 
                 <div className="flex items-start flex-col">
                     <div className="relative flex justify-center items-center bg-gray-100 py-12 px-16">
-                        <img
-                            src="https://i.ibb.co/sFWSWKz/Rectangle-49-2.png"
-                            alt="camera"
-                        />
+                        <img src={HealthcareCookies} alt="camera" />
                         <button className="absolute top-4 right-4 flex justify-center items-center p-3.5 bg-white rounded-full">
                             <svg
                                 className="fill-stroke text-gray-600 hover:text-gray-500"
@@ -131,7 +127,7 @@ const BestSellers: FC<BestSellersProps> = () => (
                     <div className="flex flex-col items-start jusitfy-start mt-3 space-y-3">
                         <div>
                             <p className="text-lg font-medium leading-4 text-gray-800">
-                                Digital camera
+                                Healthcare Appreciation Cookies
                             </p>
                         </div>
                         <div>
@@ -144,10 +140,7 @@ const BestSellers: FC<BestSellersProps> = () => (
 
                 <div className="flex items-start flex-col">
                     <div className="relative flex justify-center items-center bg-gray-100 py-12 px-16">
-                        <img
-                            src="https://i.ibb.co/x5xbLxB/Rectangle-49-3.png"
-                            alt="speaker"
-                        />
+                        <img src={ShortbreadCookies} alt="shortbread" />
                         <button className="absolute top-4 right-4 flex justify-center items-center p-3.5 bg-white rounded-full">
                             <svg
                                 className="fill-stroke text-gray-600 hover:text-gray-500"
@@ -175,7 +168,7 @@ const BestSellers: FC<BestSellersProps> = () => (
                     <div className="flex flex-col items-start jusitfy-start mt-3 space-y-3">
                         <div>
                             <p className="text-lg font-medium leading-4 text-gray-800">
-                                Wireless speakers
+                                Shortbread Cookies
                             </p>
                         </div>
                         <div>
