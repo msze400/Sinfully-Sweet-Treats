@@ -8,8 +8,7 @@ import SpecialtyDessertBanner from '../SpecialtyDessertBanner/SpecialtyDessertBa
 
 interface HomePageProps {}
 
-// const logo = require('../../assets/SVG_Logo.svg')
-const logo = require('../../assets/SS_Treats_Logo_White_v2.svg')
+const logo = require('../../assets/SS_Treats_Logo_White_v2.svg').default
 
 const HomePage: FC<HomePageProps> = () => (
     <div>
@@ -21,18 +20,11 @@ const HomePage: FC<HomePageProps> = () => (
         >
             <div className="parallax flex h-screen">
                 <div className="parallax-text text-white m-auto text-center text-5xl">
-                    <h1>
-                        Sinfully Sweet Treats <br></br> By Amanda
-                    </h1>
                     <img
                         src={logo}
                         alt="white-logo"
-                        style={{ width: '175px', height: '40px' }}
+                        style={{ width: '50vw', height: '50vh' }}
                     ></img>
-                    {/* <img
-                        width="200"
-                        height="200"
-                        background={logo} */}
                 </div>
             </div>
         </Parallax>

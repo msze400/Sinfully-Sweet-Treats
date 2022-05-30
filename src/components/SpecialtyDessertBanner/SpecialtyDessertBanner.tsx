@@ -11,20 +11,8 @@ const SpecialtyDessertBanner: FC<SpecialtyDessertBannerProps> = () => (
                 <img
                     src={CookieTray}
                     alt="Cookie Tray"
-                    className="w-1/2 h-1/2 hidden lg:block"
-                    id="background-tint"
+                    className="w-1/2 h-1/2 hidden lg:block background-tint"
                 />
-                {/* <img
-                    src="https://i.ibb.co/94jQFsV/bench-accounting-nvzv-OPQW0gc-unsplash-1-1.png"
-                    alt="A work table with house plants"
-                    className="hidden sm:block lg:hidden w-full h-full background-tint"
-                />
-                <img
-                    src="https://i.ibb.co/cJz8LZ2/bench-accounting-nvzv-OPQW0gc-unsplash-1-1.png"
-                    alt="A work table with house plants"
-                    className="sm:hidden w-full h-full"
-                /> */}
-
                 <div className="absolute z-10 top-0 left-0 mx-4 sm:mx-0 mt-36 sm:mt-0 sm:py-20 md:py-28 lg:py-20 xl:py-28 sm:pl-14 flex flex-col sm:justify-start items-start">
                     <h1 className="text-4xl sm:text-5xl lg:text-6xl font-semibold text-white sm:w-8/12">
                         Satisfy Your Sweet Tooth
