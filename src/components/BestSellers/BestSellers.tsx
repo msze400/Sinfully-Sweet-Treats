@@ -17,7 +17,11 @@ const BestSellers: FC<BestSellersProps> = () => (
             <div className="grid md:grid-cols-2 lg:grid-cols-4 justify-items-between mt-8 gap-y-8 lg:gap-y-0 gap-x-8">
                 <div className="flex items-start flex-col">
                     <div className="relative flex justify-center items-center bg-gray-100 py-12 px-16">
-                        <img src={WeddingCookies} alt="weddingcookie" />
+                        <img
+                            src={WeddingCookies}
+                            alt="weddingcookie"
+                            className="object-fit w-1/9"
+                        />
                         <button className="absolute top-4 right-4 flex justify-center items-center p-3.5 bg-white rounded-full">
                             <svg
                                 className="fill-stroke text-gray-600 hover:text-gray-500"
@@ -58,7 +62,11 @@ const BestSellers: FC<BestSellersProps> = () => (
 
                 <div className="flex items-start flex-col">
                     <div className="relative flex justify-center items-center bg-gray-100 py-12 px-16">
-                        <img src={CakePops} alt="cakepops" />
+                        <img
+                            src={CakePops}
+                            alt="cakepops"
+                            className="object-fit w-10/12"
+                        />
                         <button className="absolute top-4 right-4 flex justify-center items-center p-3.5 bg-white rounded-full">
                             <svg
                                 className="fill-stroke text-gray-600 hover:text-gray-500"
