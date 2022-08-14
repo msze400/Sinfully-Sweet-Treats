@@ -6,7 +6,15 @@ const CookieTray = require('../../assets/Cookie_Tray.jpeg')
 
 const SpecialtyDessertBanner: FC<SpecialtyDessertBannerProps> = () => (
     <div className="dark:bg-yellow-100">
-        <div className="container mx-auto py-9 md:py-12 lg:py-24">
+        <div
+            className="m-5 h-72 w-auto"
+            style={{
+                backgroundImage: `url(${CookieTray})`,
+            }}
+        >
+            {/* <img src={CookieTray}></img> */}
+        </div>
+        {/* <div className="container mx-auto py-9 md:py-12 lg:py-24">
             <div className="relative mx-4">
                 <img
                     src={CookieTray}
@@ -29,7 +37,7 @@ const SpecialtyDessertBanner: FC<SpecialtyDessertBannerProps> = () => (
                     Explore
                 </button>
             </div>
-        </div>
+        </div> */}
     </div>
 )
 

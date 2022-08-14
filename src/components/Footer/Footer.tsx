@@ -15,12 +15,6 @@ const Footer: FC<FooterProps> = () => (
                 <p className="hover:text-gray-500 text-base cursor-pointer leading-4 text-gray-800">
                     Contact us
                 </p>
-                <p className="hover:text-gray-500 text-base cursor-pointer leading-4 text-gray-800">
-                    Terms of Service
-                </p>
-                <p className="hover:text-gray-500 text-base cursor-pointer leading-4 text-gray-800">
-                    Privacy Policy
-                </p>
             </div>
             <div className="flex items-center gap-x-8 mt-6">
                 <div className="cursor-pointer">

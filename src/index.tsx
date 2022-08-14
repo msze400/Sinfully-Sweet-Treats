@@ -10,6 +10,7 @@ import NavBar from './components/NavBar/NavBar'
 import Footer from './components/Footer/Footer'
 import Products from './components/Products/Products'
 import About from './components/About/About'
+import Menu from './components/Menu/Menu'
 
 const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement)
 root.render(
@@ -21,6 +22,7 @@ root.render(
                 <Route path="bestseller" element={<BestSellers />} />
                 <Route path="reviews" element={<Reviews />} />
                 <Route path="products" element={<Products />} />
+                <Route path="menu" element={<Menu />} />
                 <Route path="about" element={<About />} />
             </Routes>
             <Footer></Footer>
