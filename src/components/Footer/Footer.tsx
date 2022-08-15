@@ -3,7 +3,7 @@ import React, { FC } from 'react'
 interface FooterProps {}
 
 const Footer: FC<FooterProps> = () => (
-    <div className="mx-auto container xl:px-20 lg:px-12 sm:px-6 px-4 px-4 py-12">
+    <div className="mx-auto container xl:px-20 lg:px-12 sm:px-6 px-4 px-4 py-4">
         <div className="flex flex-col items-center justify-center">
             <div>
                 <p className="text-bold color-red">Sinfully Sweet Treats</p>

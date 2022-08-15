@@ -12,7 +12,7 @@ const About: FC<AboutProps> = () => (
                 About
             </p>
             <h2 className="xl:w-8/12 lg:w-10/12 w-full font-bold text-gray-800 lg:text-4xl text-3xl lg:leading-10 leading-9 mt-2">
-                I'm here to make great tasting treats for any special occassion.
+                I'm here to make great tasting treats for any occassion.
             </h2>
             <p className="text-lg text-base leading-6 text-gray-600 mt-6">
                 Back in 2021, New Jersey reinstated its home cottage food laws,

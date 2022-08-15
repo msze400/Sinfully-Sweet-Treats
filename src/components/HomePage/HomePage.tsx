@@ -30,7 +30,7 @@ const HomePage: FC<HomePageProps> = () => (
         </Parallax>
         <MiniBio></MiniBio>
         <SpecialtyDessertBanner></SpecialtyDessertBanner>
-        <BestSellers></BestSellers>
+        {/* <BestSellers></BestSellers> */}
     </div>
     // </div>
 )

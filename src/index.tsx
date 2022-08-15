@@ -25,7 +25,7 @@ root.render(
                 <Route path="menu" element={<Menu />} />
                 <Route path="about" element={<About />} />
             </Routes>
-            <Footer></Footer>
+            <Footer />
             {/* <Route path="expenses" element={<Expenses />} />
       <Route path="invoices" element={<Invoices />} /> */}
         </React.StrictMode>
