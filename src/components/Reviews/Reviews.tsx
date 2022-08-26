@@ -24,7 +24,7 @@ const Reviews: FC<ReviewsProps> = () => {
             <button
                 type="button"
                 onClick={() => setOpen(true)}
-                className="bg-rose-400 hover:bg-rose-600 m-8 px-5 py-4 text-white font-bold border border-rose-600 rounded"
+                className="bg-rose-400 hover:bg-rose-600 m-8 px-5 py-4 text-white font-bold border border-rose-600 rounded w-56"
             >
                 See My Reviews
             </button>

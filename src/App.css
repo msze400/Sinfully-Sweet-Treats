@@ -7,7 +7,8 @@ html {
     /* background-color: #ffffff; */
 }
 
-.navbar {
+.navbar,
+.card {
     background-color: #d2c3c2;
 }
 .App {
