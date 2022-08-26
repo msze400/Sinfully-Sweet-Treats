@@ -509,6 +509,7 @@ Ensure the default browser behavior of the `hidden` attribute.
     width: 100vw;
     height: 50vh;
     background-color: rgba(0, 0, 0, 0.2);
+    /* background-size: cover; */
     /* Tint color */
     background-blend-mode: multiply;
 }

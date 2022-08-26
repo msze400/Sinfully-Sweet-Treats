@@ -1,6 +1,6 @@
 import React, { FC } from 'react'
 import NavBar from '../NavBar/NavBar'
-import { Parallax } from 'react-parallax'
+import { Parallax, Background } from 'react-parallax'
 import MiniBio from '../MiniBio/MiniBio'
 import SpecialtyDessert from '../SpecialtyDessert/SpecialtyDessert'
 import BestSellers from '../BestSellers/BestSellers'
@@ -8,31 +8,28 @@ import SpecialtyDessertBanner from '../SpecialtyDessertBanner/SpecialtyDessertBa
 
 interface HomePageProps {}
 
-const logo = require('../../assets/SS_Treats_Logo_White_v2.svg').default
+const logo = require('../../assets/SinfullySweetTreats_v2.svg').default
+const BG = require('../../assets/HomePageBG_v3.png')
 
 const HomePage: FC<HomePageProps> = () => (
-    <div>
-        <Parallax
-            blur={{ min: -15, max: 15 }}
-            bgImage={require('../../assets/Macarons.jpg')}
-            bgImageAlt="macarons"
-            strength={-200}
+    <>
+        <div
+            className="grid grid-cols-10 bg-fixed bg-center bg-cover relative items-center  "
+            style={{
+                backgroundImage: `url(${BG})`,
+                height: '75vh',
+            }}
         >
-            <div className="parallax flex h-screen">
-                <div className="parallax-text text-white m-auto text-center text-5xl">
-                    <img
-                        src={logo}
-                        alt="white-logo"
-                        style={{ width: '50vw', height: '50vh' }}
-                    ></img>
-                </div>
-            </div>
-        </Parallax>
+            <img
+                className="object-cover col-span-8 col-start-2 sm:col-start-3 md:col-start-7 h-1/2 sm:3/4 md:h-5/6  "
+                src={logo}
+                alt="white-logo"
+            ></img>
+        </div>
         <MiniBio></MiniBio>
         <SpecialtyDessertBanner></SpecialtyDessertBanner>
         {/* <BestSellers></BestSellers> */}
-    </div>
-    // </div>
+    </>
 )
 
 export default HomePage
