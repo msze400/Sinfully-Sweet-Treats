@@ -9,8 +9,10 @@ import Reviews from './components/Reviews/Reviews'
 import NavBar from './components/NavBar/NavBar'
 import Footer from './components/Footer/Footer'
 import Products from './components/Products/Products'
-import About from './components/About/About'
+// import About from './components/About/About'
 import Menu from './components/Menu/Menu'
+import FAQ_Info from './components/FAQ/FAQ'
+import ContactGrid from './components/ContactGrid/ContactGrid'
 
 const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement)
 root.render(
@@ -21,9 +23,10 @@ root.render(
                 <Route path="/" element={<App />} />
                 <Route path="bestseller" element={<BestSellers />} />
                 <Route path="reviews" element={<Reviews />} />
-                <Route path="products" element={<Products />} />
+                {/* <Route path="products" element={<Products />} /> */}
                 <Route path="menu" element={<Menu />} />
-                <Route path="about" element={<About />} />
+                <Route path="faq" element={<FAQ_Info />} />
+                <Route path="contact" element={<ContactGrid />} />
             </Routes>
             <Footer />
             {/* <Route path="expenses" element={<Expenses />} />
