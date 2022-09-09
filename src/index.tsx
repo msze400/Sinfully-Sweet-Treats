@@ -29,8 +29,6 @@ root.render(
                 <Route path="contact" element={<ContactGrid />} />
             </Routes>
             <Footer />
-            {/* <Route path="expenses" element={<Expenses />} />
-      <Route path="invoices" element={<Invoices />} /> */}
         </React.StrictMode>
     </BrowserRouter>
 )
