@@ -7,6 +7,26 @@ html {
     /* background-color: #ffffff; */
 }
 
+.logo {
+    content: url('./assets/SinfullySweetTreats_v2.svg');
+}
+
+.homepage {
+    background-image: url('./assets/HomePageBG_v3.png');
+    height: 85vh;
+}
+
+@media only screen and (max-width: 600px) {
+    .homepage {
+        background-image: url('./assets/HomePageBG_Mobile.png');
+        background-color: rgba(0, 0, 0, 0.5); /* Tint color */
+        background-blend-mode: multiply;
+    }
+
+    .logo {
+        content: url('./assets/SS_Logo_White.svg');
+    }
+}
 .notification-banner {
     background-color: #fff1f2;
 }
